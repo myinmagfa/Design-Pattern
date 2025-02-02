@@ -2,6 +2,6 @@
 {
     public interface IShapePrototype
     {
-        IShapePrototype Clone();
+        BaseShape ShallowCopy();
     }
 }

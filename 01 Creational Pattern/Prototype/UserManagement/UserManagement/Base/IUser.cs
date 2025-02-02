@@ -2,6 +2,6 @@
 {
     public interface IUser
     {
-        public void Create();
+        IUser Create();
     }
 }
